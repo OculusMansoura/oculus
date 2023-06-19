@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("department.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo{
+    height: 6rem;
+   position: absolute; 
+   top: 0;
+   left:10px;
+}
+.inven{
+    text-align: right;
+    padding-top: 20px;
+}
+.form-container{
+    height: 100%;
+    width: 100%;
+    margin: 50px auto;
+    padding-top: 70px;
+    
+}
+.form-container form{
+    height:100%;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #7c888b;
+    padding: 30px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    color:whitesmoke;
+}
+.form-container form h3{
+    text-align: center;
+    font-size:  2rem; 
+    color: whitesmoke;
+    padding-bottom: 0px;
+}
+.form-container form label{
+    font-size: 1.3rem;
+    padding: 3px 0;   
+
+}
+.form-container form input{
+    border-radius: 20px;
+    padding: 8px;
+    margin: 5px 0 5px 0;
+    border: black ;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.table-responsive{
+    max-width: 100%;
+    overflow: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+table{
+    width: 100%;
+    font-size:20 px;
+    color: black;
+    background-color: whitesmoke;
+    white-space: nowrap;
+    border-collapse: collapse;
+    margin-bottom:50px ;
+}
+table>thead{
+    background-color: whitesmoke;
+    color: black;
+    font-size: larger;
+
+}
+h4{
+    margin-bottom: 20px;
+}
+table>thead th{
+    padding: 10px;
+}
+table th,
+table td{
+    border: 1px solid #000;
+}
+.content-table>tbody>tr>td{
+    width: 40px;
+    height: 40px;
+    font-size: 19px;
+}
+    /* can text in empty box table1*/
+.text{
+    width: 140px;
+    height: 40px;
+    background-color: whitesmoke;
+}
+    /* can text in empty box table2*/
+.text1{
+     width: 330px;
+    height: 40px;
+    background-color: whitesmoke;
+ }
+ .comment{
+    font-size: large;
+}
+
+    /* move titles in all tables */
+.move{
+    padding-left: 10px;
+    background-color: #7c888b;
+    color: whitesmoke;
+}
+.move1{
+    padding-left: 10px;
+}
+h4{
+    font-size: larger;
+    color: #000;
+}
+
+p{
+    font-size: 17px;
+    color: #000;
+    padding-bottom: 10px;
+}
+.status{
+    padding-bottom: 90px;
+}
+
+    /* move radio in table3*/
+.radio{
+    padding-left: 40px;
+    width: 20px;
+    height: 20px;
+}
+
+    /* move radio in table4 */
+.radio1{
+    padding-left: 20px;
+}
+.hint{
+    width: 60px;
+}
+
+.comment{
+    font-size: large;
+}
+
+.time, .date{
+    background-color: whitesmoke;
+}
+
+
+    /* max label */
+.action{
+    width: 40%;
+}
+button{
+    align-self: flex-end;
+    height: 50px;
+    width: 150px;
+    border: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    justify-items: right;
+    border-radius: 30px;
+}
+button:hover{
+    transform: translateY(-0.25em );
+    cursor: pointer;
+    background-color: #219EBC;
+    border-radius:30px;
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.submit:hover{
+    color: white;
+}
+
+.btn{
+    text-align: right;
+    margin-top: 90px;
+
+}

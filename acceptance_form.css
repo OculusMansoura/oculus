@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("department.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo{
+    height: 6rem;
+   position: absolute; 
+   top: 0;
+   left:10px;
+}
+@media (max-width:480px){
+    .title{
+     margin-top: 6rem;
+    }
+ }
+ @media (max-width:576pxpx){
+    .title{
+     margin-top: 6rem;
+    }
+ }
+p input {
+    border: none;
+    width: 30px;
+    background-color: #7c888b; 
+}
+
+.form-container{
+    height: 100%;
+    width: 100%;
+    margin: 50px auto;
+    padding-top: 0px;
+}
+.form-container form{
+    height:2000px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #7c888b;
+    padding: 30px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.form-container form h3{
+    text-align: center;
+    font-size:  2rem; 
+    color: whitesmoke;
+    padding-bottom: 30px;
+}
+.form-container form label{
+    font-size: 1.3rem;
+    padding: 3px 0;
+}
+.form-container form input{
+    padding: 8px;
+    border-radius: 20px;
+    margin: 5px 0 5px 0;
+    border: black ;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+h6{
+    color: #ae2012;
+}
+h4{
+    padding-top: 10px;
+    color: #000;
+}
+
+p{
+    padding-top: 5px;
+}
+
+
+/*minimize label*/
+.action{
+    width: 50%;
+}
+
+.date{
+    width:20% ;
+}
+
+
+/*spaces between divs label*/
+.num1, .num2, .num3, .num4{
+    padding-top:20px ;
+}
+
+/*last 2 lebals*/
+.num5{
+    padding-top: 40px;
+}
+
+button{
+    align-self: flex-end;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+button:hover{
+    transform: translateY(-0.25em );
+    cursor: pointer;
+    background-color: #219EBC;
+    border-radius:30px;
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.submit:hover{
+    color: white;
+}
+@media(max-width: 767px){
+    .form-container{
+        margin: 50px auto;
+        padding-top: 40px;
+    }
+  }
+
+.inven{
+    text-align: right;
+    padding-top: 20px;
+}
+

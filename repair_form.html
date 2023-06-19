@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oculus</title>
+    <link rel="stylesheet" href="repair_form.css">
+</head>
+<body>
+    <img src="logo.png" alt="" class="logo">
+    <div class="form-container">
+        <form action="">
+            <h3> Repair Request</h3>
+
+                <!--table1-->
+                <div class="table-responsive">
+                <table class="content-table">
+                    <thead>
+                        <tr>
+                            <th>Repair Order </th>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Bio.Code</th>
+                            <th>Dep./Room</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input class="text" type="text"></td>
+                            <td><input class="date" type="date"></td>
+                            <td><input class="date" type="time"></td>
+                            <td><input class="text" type="text"></td>
+                            <td><input class="text" type="text"></td>
+                        </tr>
+                    </tbody>   
+                </table>
+                </div>
+
+                <!--table2-->
+                <div class="table-responsive">
+                <table class="content-table">
+                    <tbody>
+                        <tr>
+                            <td class="word">Requester Name</td>
+                            <td><input class="text1" type="text"></td>
+                        </tr>
+                        <tr>
+                            <td class="word">Phone Number</td>
+                            <td><input class="text1 " type="text"></td>
+                        </tr>
+                        <tr>
+                            <td  class="word">Malfunction Description </td>
+                            <td><input class="text1" type="text"></td>
+                        </tr>
+                    </tbody>
+                    </table>
+                    </div>
+
+                    <!--table3-->
+                    <div class="table-responsive">
+                    <table class="content-table">
+                        <tbody>
+                            <tr>
+                                <td  class="word">Device Name</td>
+                                <td><input class="text2 " type="text"></td>
+                            </tr>
+                            <tr>
+                                <td  class="word">Brand</td>
+                                <td><input class="text2 " type="text"></td>
+                            </tr>
+                            <tr>
+                                <td  class="word">Model</td>
+                                <td><input class="text2 " type="text"></td>
+                            </tr>
+                            <tr>
+                                <td class="word">Serial No.</td>
+                                <td><input class="text2 " type="text"></td>
+                            </tr>
+                            <tr>
+                                <td  class="word">Device Situation</td>
+                                <td>&nbsp; &nbsp; <input type="radio" name="gender">Warranty &nbsp; &nbsp;
+                                    <input type="radio" name="gender">Out-Of-Warranty &nbsp; &nbsp;
+                                    <input type="radio" name="gender">Maintenance Contract
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+
+
+                    <h4>Inspection by Technician/Engineer Engineering Department: </h4>
+                    <!--table4-->
+                    <div class="table-responsive">
+                    <table class="content-table">
+                        <tbody>
+                            <tr>
+                                <td  class="word">Device Condition</td>
+                                <td> &nbsp; &nbsp;
+                                    <input type="radio" name="gender1">Exempt &nbsp; &nbsp;
+                                    <input type="radio" name="gender1">Partially Operating
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  class="word">Last PM Date</td>
+                                <td><input class="date" type="date"></td>
+                            </tr>
+                            <tr>
+                                <td class="word">Malfunction Cause</td>
+                                <td>&nbsp; &nbsp; <input type="radio" name="gender2">Operator Error &nbsp; &nbsp;
+                                    <input type="radio" name="gender2">Other</td>
+                            </tr>
+                            <tr>
+                                <td class="word">Comments</td>
+                                <td><input class="text3" type="text"></td>
+                            </tr>
+                            <tr>
+                                <td class="word">Action Taken</td>
+                                <td><input class="text3" type="text"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+
+            <label for="">Engineer/Technician:</label>
+            <select>
+                <option>Select</option>
+                <option>Engineer</option>
+                <option>Technician</option>
+            </select>
+            <br>
+             <div class="name">
+                <label for="">Name:</label>
+            <input class="action" type="text" placeholder="Enter Your Name" required>
+            </div>
+            <button class="update"> <a class="submit" href="#">Update</a></button>
+
+        </form>
+</body>
+</html>

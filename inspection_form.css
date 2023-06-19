@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("department.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo{
+    height: 6rem;
+   position: absolute; 
+   top: 0;
+   left:10px;
+}
+@media (max-width:480px){
+    .title{
+     margin-top: 6rem;
+    }
+ }
+ @media (max-width:576pxpx){
+    .title{
+     margin-top: 6rem;
+    }
+ }
+ .form-container{
+    height: 100%;
+    width: 100%;
+    margin: 50px auto;
+    padding-top: 40px;
+}
+.form-container form{
+    height:1600px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #7c888b;
+    padding: 30px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.form-container form h3{
+    text-align: center;
+    font-size:  2rem; 
+    color: whitesmoke;
+    padding-bottom: 0px;
+}
+.form-container form label{
+    font-size: 1.3rem;
+    padding: 3px 0;
+}
+.form-container form input{
+    padding: 8px;
+    border-radius: 20px;
+    margin: 5px 0 5px 0;
+    border: black ;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+h6{
+    color: #000;
+}
+h5{
+    padding-bottom: 40px;
+}
+/*under h3*/
+.style-h6{
+padding-left: 110px;
+padding-bottom: 40px;
+}
+
+/*td1 in table*/
+.move{
+    padding-left: 20px;
+}
+
+/*minimize label*/
+.action{
+    width: 70%;
+}
+.table-responsive{
+    max-width: 100%;
+    overflow: auto;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+table{
+    width: 100%;
+    font-size: 10px;
+    color: black;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+/*can type in empty in grey*/
+p input {
+    border: none;
+    width: 60px;
+    height: 30px;
+    background-color: #7c888b; 
+}
+/*can type in empty in white*/
+.spacial{
+    border: none;
+    width: 60px;
+    height: 30px;
+    background-color: whitesmoke; 
+}
+table td{
+    border: 1px solid #000;
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+table>tbody>tr>td{
+    width: 70px;
+    height: 70px;
+    font-size: 19px;
+}
+button{
+    align-self: flex-end;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    justify-items: right;
+}
+button:hover{
+    transform: translateY(-0.25em );
+    cursor: pointer;
+    background-color: #219EBC;
+    border-radius:30px;
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.submit:hover{
+    color: white;
+}
+.inven{
+    text-align: right;
+    padding-top: 20px;
+}
+.update{
+    margin-top: 40px;
+}

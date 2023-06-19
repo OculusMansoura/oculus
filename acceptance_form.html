@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oculus</title>
+    <link rel="stylesheet" href="acceptance_form.css">
+</head>
+<body>
+    <img src="logo.png" alt="" class="logo">
+    <div class="form-container">
+        <form action="">
+            <h3>Equipment Acceptance/ <br> Assessment Form</h3>
+
+            <label for="">Name/Type of Equipment:</label>
+            <input class="action" type="text" placeholder="Enter Name of Equipment" required>
+
+            <label for="">Manufacturer:</label>
+            <input class="action" type="text" placeholder="Enter Manufacturer" required>
+
+            <label for="">Model:</label>
+            <input class="action" type="text" placeholder="Enter Model" required>
+
+            <label for="">Department:</label>
+            <input class="action" type="text" placeholder="Enter Department" required>
+
+            <h6>NOTE:  This form is to be utilized for medical  equipment ONLY!</h6>
+            
+            <div class="num1">
+                <h4>Equipment Management Assessment Score (EMAS) Calculation:  </h4>
+                <p>[ FUNCTION ]	+	[ RISK ]	+	[ MAINTENANCE ]	+	[ INCIDENTS/RISKS ]	=	EMAS</p>
+                <p>[<input type="text">]	+	[ <input type="text">]	+	[<input type="text">]	+	[<input type="text">]	=	[<input type="text">]</p>
+            </div>
+
+            <div class="num2">
+                <h4>Priority Classification:</h4>
+                <p> <input type="checkbox">Critical ( 22 - 25 points)	&nbsp; [<input type="number">] &nbsp; <input type="checkbox">	Low Priority ( 12 - 17 points)	&nbsp;	[<input type="number">]</p>
+                <p><input type="checkbox">High Priority ( 18 - 21 points)	&nbsp;	[<input type="number">] &nbsp; <input type="checkbox">	Excluded ( 11 points or less) &nbsp;[<input type="number">]</p>
+            </div>
+
+            
+            <div class="num3">
+                <label for="">Operator Manual Location:  </label>
+                <input class="action" type="text" placeholder="Enter Operator Manual Location" required>
+            </div>
+
+            <div class="num4">
+                <h4>PM Cycle:</h4>
+                <p>  <input type="checkbox"> [<input type="number">]  Weekly &nbsp; &nbsp;&nbsp; <input type="checkbox"> [<input type="number">]  Bi-Weekly &nbsp;	&nbsp;&nbsp;
+                	 <input type="checkbox"> [<input type="number">]  Monthly</p>
+
+                 <p><input type="checkbox"> [<input type="number">]  Quarterly &nbsp; &nbsp;&nbsp; <input type="checkbox"> [<input type="number">] Semi Annual &nbsp;	&nbsp;&nbsp;
+                	 <input type="checkbox"> [<input type="number">]  Annual</p>
+            </div>
+            
+            <label for="">Purchase Date:  </label>
+            <input class="date" name="date" type="date">
+            
+            
+            <label for="">Outside Service Contract:</label>
+            <input class="action" type="text" placeholder="Outside Service Contract" required>
+
+            <label for="">Inspection Conducted By:</label>
+            <input class="action" type="text" placeholder="Enter Inspection Conducted By" required>
+
+            <label for="">Reports Noted:</label>
+            <input class="action" type="text" placeholder="Enter Reports Noted" required>
+
+            <label for="">Date:</label>
+            <input class="date" name="date" type="date">
+
+            <div class="num5">
+               <label for=""> <h5>Tracking Number: <input type="text"  required></h5></label>
+               <label for=""><h5>PM will be done by: <input type="text"  required></h5></label>
+            </div>
+
+
+            <button> <a class="submit" href="#">Update</a></button>
+
+        </form>
+    </div>
+</body>
+</html>

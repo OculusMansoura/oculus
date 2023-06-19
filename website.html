@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oculus</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+        <div class="navbar">
+           <div class="logo"><img src="logo.png" alt=""></div>
+           
+           <div class="dropdown_menu">
+            <li class="acceptance"><a href="acceptance_form.html">Equipment Acceptance Form</a></li>
+            <li class="inspection"><a href="inspection_form.html">Equipment Inspection Chicklist</a></li>
+            <li class="replacement"><a href="replacement_form.html">Replacement Score Form</a></li>
+            <li class="preventive"><a href="ventilator.html">Preventive Maintenance Steps</a></li>
+            <li class="preventive"><a href="repair_form.html">Repair Request Form</a></li>
+
+        </div>
+                    <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                    </div>
+         </div>
+     
+         
+      <!-- js dropdown_menu -->
+  <script>
+    const toggleBtn = document.querySelector(' .toggle_btn')
+    const toggleBtnIcon = document.querySelector(' .toggle_btn i')
+    const dropDownMenu = document.querySelector(' .dropdown_menu')
+  
+   toggleBtn.onclick = function() {
+       dropDownMenu.classList.toggle('open')
+       const isOpen = dropDownMenu.classList.contains('open')
+
+       toggleBtnIcon.classList = isOpen
+       ? 'fa-solid fa-xmark'
+       : 'fa-solid fa-bars'
+   }
+
+</script>
+
+<div class="form-container">
+    <form action="">
+        <h3>Equipment Information</h3>
+
+        <label for="">SN:</label>
+        <table>
+            <tr>
+                <td>3512180760</td>
+            </tr>
+        </table>
+
+        <label for="">Device Name:</label>
+        <table>
+            <tr>
+                <td>Ventilator</td>
+            </tr>
+        </table>
+
+        <label for="">DEPT Name:</label>
+        <table>
+            <tr>
+                <td>ICU</td>
+            </tr>
+        </table>
+
+        <label for="">Company Name:</label>
+        <table>
+            <tr>
+                <td>Philips</td>
+            </tr>
+        </table>
+
+        <label for="">Model:</label>
+        <table>
+            <tr>
+                <td>Puritan 840</td>
+            </tr>
+        </table>
+
+        <label for="">Brand:</label>
+        <table>
+            <tr>
+                <td>Bennett</td>
+            </tr>
+        </table>
+
+        <label for="">Manufacturer:</label>
+        <table>
+            <tr>
+                <td>ULTRA MEDICA</td>
+            </tr>
+        </table>
+
+        <label for="">Manufacture Date:</label>
+        <table>
+            <tr>
+                <td>30/12/2020</td>
+            </tr>
+        </table>
+
+        <label for="">Operating State:</label>
+        <table>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+        <label for="">Operating Date:</label>
+        <table>
+            <tr>
+                <td>23/6/2019</td>
+            </tr>
+        </table>
+
+        <label for="">Operating Service:</label>
+        <table>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+
+        <label for="">Date Inventory Update:</label>
+        <table>
+            <tr>
+                <td>15/2/2023</td>
+            </tr>
+        </table>
+
+        <label for="">Maintenance Service Provider:</label>
+        <table>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+
+        <label for="">Purchase Supplier:</label>
+        <table>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+
+        <label for="">Purchase Cost:</label>
+        <table>
+            <tr>
+                <td>Rs 10,00,000</td>
+            </tr>
+        </table>
+
+        <label for="">Warranty Expiration Date:</label>
+        <table>
+            <tr>
+                <td>1/5/2030</td>
+            </tr>
+        </table>
+
+        <label for="">Risk Assessment:</label>
+        <table>
+            <tr>
+                <td>Pneumothorax, Pulmonary edema, Hypoxemia</td>
+            </tr>
+        </table>
+
+        <label for="">Operating History:</label>
+        <table>
+            <tr>
+                <td></td>
+            </tr>
+        </table>   
+
+        <label for="">Biomedical Code:</label>
+        <table>
+            <tr>
+                <td>ICU-05-23</td>
+            </tr>
+        </table>
+
+        <label for="">History Of Recalls:</label>
+        <table>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+
+
+    </form>
+
+
+    
+</body>
+</html>
